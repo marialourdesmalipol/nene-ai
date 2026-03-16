@@ -1,0 +1,10 @@
+{
+  "css.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "css",
+    "html": "css"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}

@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Exact Tokens from Reference */
+    --rose: 332 43% 64%;        /* #C97B9F */
+    --rose-dark: 330 30% 43%;   /* #8F4D6E */
+    --rose-mid: 332 35% 56%;    /* #B5698C */
+    --rose-pale: 330 45% 89%;   /* #F2D4E2 */
+    --rose-faint: 333 50% 96%;  /* #FBF0F5 */
+    --lilac: 267 34% 62%;       /* #9B7DBF */
+    --lilac-pale: 261 47% 94%;  /* #EDE6F8 */
+    --cream: 33 67% 97%;        /* #FDF8F2 */
+    --sand: 41 56% 90%;         /* #F4EAD5 */
+    --warm-white: 30 50% 99%;   /* #FEFCFA */
+    --text: 324 21% 11%;        /* #261520 */
+    --text-mid: 327 18% 36%;    /* #6B4A5C */
+    --text-light: 324 10% 63%;  /* #B39AAA */
+    --border: 324 23% 90%;      /* #EDE0E8 */
+    --white: 0 0% 100%;         /* #FFFFFF */
+    --green: 153 31% 55%;       /* #6BAF90 */
+    --green-pale: 153 47% 89%;  /* #D6EFE4 */
+    --amber: 35 60% 49%;        /* #C98A32 */
+    --amber-pale: 38 96% 92%;   /* #FEF0D6 */
+    --red: 0 44% 54%;           /* #BE5555 */
+    --red-pale: 0 53% 95%;      /* #FCEAEA */
+    --sidebar-bg: 324 31% 11%;  /* #2A1622 */
+
+    /* Shadcn/UI Mappings */
+    --background: var(--cream);
+    --foreground: var(--text);
+
+    --card: var(--white);
+    --card-foreground: var(--text);
+
+    --popover: var(--white);
+    --popover-foreground: var(--text);
+
+    --primary: var(--rose);
+    --primary-foreground: var(--white);
+
+    --secondary: var(--rose-faint);
+    --secondary-foreground: var(--rose-dark);
+
+    --muted: var(--sand);
+    --muted-foreground: var(--text-light);
+
+    --accent: var(--lilac);
+    --accent-foreground: var(--white);
+
+    --destructive: var(--red);
+    --destructive-foreground: var(--white);
+
+    --border: var(--border);
+    --input: var(--rose-faint);
+    --ring: var(--rose);
+
+    --radius: 0.875rem; /* 14px */
+
+    /* Sidebar Variables */
+    --sidebar-background: var(--sidebar-bg);
+    --sidebar-foreground: var(--rose-pale);
+    --sidebar-primary: var(--rose);
+    --sidebar-primary-foreground: var(--white);
+    --sidebar-accent: var(--rose-dark);
+    --sidebar-accent-foreground: var(--white);
+    --sidebar-border: 324 31% 15%; /* Custom darker border for sidebar */
+    --sidebar-ring: var(--rose);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  }
+}
+
+/* Custom Utilities for Brand */
+.font-display {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+}
+
+.font-ui {
+  font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+/* Exact Animations from Reference */
+@keyframes nn-halo {
+  0%, 100% { transform: scale(1); opacity: 0.16; }
+  50% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes nn-halo2 {
+  0%, 100% { transform: scale(1); opacity: 0.1; }
+  50% { transform: scale(1.25); opacity: 0; }
+}
+
+@keyframes nn-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.045); }
+}
+
+@keyframes nn-bar {
+  0%, 100% { transform: scaleY(0.25); }
+  50% { transform: scaleY(1); }
+}
+
+@keyframes nn-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+.nn-halo { animation: nn-halo 2.8s ease-in-out infinite; }
+.nn-halo2 { animation: nn-halo2 2.8s ease-in-out infinite 0.4s; }
+.nn-face { animation: nn-breathe 3.4s ease-in-out infinite; }
+.nn-bar { animation: nn-bar 0.75s ease-in-out infinite; }
+.nn-live { animation: nn-blink 1.5s ease-in-out infinite; }
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: hsl(var(--rose-pale));
+  border-radius: 3px;
+}
+
+.shadow-soft {
+  box-shadow: 0 2px 16px rgba(42, 22, 34, 0.05);
+}

@@ -1,0 +1,149 @@
+main-app.js?v=1773651667822:2270 Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+agora-rtc-react.mjs:94 17:01:09:317 Agora-SDK [DEBUG]: setAppType: 1001
+agora-rtc-react.mjs:94 17:01:09:317 Agora-SDK [DEBUG]: browser ua:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+agora-rtc-react.mjs:94 17:01:09:317 Agora-SDK [INFO]: browser info:  {name: 'Chrome', version: '145', os: 'Windows 10', osVersion: '10', browserVersion: '145.0.0.0', …}
+agora-rtc-react.mjs:94 17:01:09:318 Agora-SDK [INFO]: browser compatibility:  {getDisplayMedia: true, getStreamFromExtension: true, supportUnifiedPlan: true, supportMinBitrate: true, supportSetRtpSenderParameters: true, …}
+agora-rtc-react.mjs:94 17:01:09:324 Agora-SDK [INFO]: [apiInvoke-1][client-2cf74][createClient] start [{…}]
+agora-rtc-react.mjs:94 17:01:09:324 Agora-SDK [INFO]: [apiInvoke-1][client-2cf74][createClient] onSuccess 
+agora-rtc-react.mjs:94 17:01:09:326 Agora-SDK [DEBUG]: [client-2cf74][lock-client-leave-2] is created.
+agora-rtc-react.mjs:94 17:01:09:326 Agora-SDK [DEBUG]: [client-2cf74][lock-client-publish-3] is created.
+agora-rtc-react.mjs:94 17:01:09:327 Agora-SDK [DEBUG]: [client-2cf74][lock-client-renewtoken-4] is created.
+agora-rtc-react.mjs:94 17:01:09:327 Agora-SDK [DEBUG]: [client-2cf74][lock-client-subscribe-5] is created.
+agora-rtc-react.mjs:94 17:01:09:327 Agora-SDK [INFO]: [client-2cf74] Initializing AgoraRTC client v4.24.0 build: v4.24.0-0-gf2267710-dirty(7/31/2025, 7:00:42 PM), mode: rtc, codec: vp8
+agora-rtc-react.mjs:94 17:01:09:327 Agora-SDK [DEBUG]: [client-2cf74][lock-websocket-6] is created.
+agora-rtc-react.mjs:94 17:01:09:330 Agora-SDK [DEBUG]: [client-2cf74][lock-config-distribute-7] is created.
+agora-rtc-react.mjs:94 17:01:09:330 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is created.
+agora-rtc-react.mjs:94 17:01:09:330 Agora-SDK [INFO]: [apiInvoke-2][client-ae688][createClient] start [{…}]
+agora-rtc-react.mjs:94 17:01:09:330 Agora-SDK [INFO]: [apiInvoke-2][client-ae688][createClient] onSuccess 
+agora-rtc-react.mjs:94 17:01:09:331 Agora-SDK [DEBUG]: [client-ae688][lock-client-leave-9] is created.
+agora-rtc-react.mjs:94 17:01:09:331 Agora-SDK [DEBUG]: [client-ae688][lock-client-publish-10] is created.
+agora-rtc-react.mjs:94 17:01:09:331 Agora-SDK [DEBUG]: [client-ae688][lock-client-renewtoken-11] is created.
+agora-rtc-react.mjs:94 17:01:09:331 Agora-SDK [DEBUG]: [client-ae688][lock-client-subscribe-12] is created.
+agora-rtc-react.mjs:94 17:01:09:332 Agora-SDK [INFO]: [client-ae688] Initializing AgoraRTC client v4.24.0 build: v4.24.0-0-gf2267710-dirty(7/31/2025, 7:00:42 PM), mode: rtc, codec: vp8
+agora-rtc-react.mjs:94 17:01:09:332 Agora-SDK [DEBUG]: [client-ae688][lock-websocket-13] is created.
+agora-rtc-react.mjs:94 17:01:09:332 Agora-SDK [DEBUG]: [client-ae688][lock-config-distribute-14] is created.
+agora-rtc-react.mjs:94 17:01:09:332 Agora-SDK [DEBUG]: [client-ae688][lock-P2PChannel-mutex-15] is created.
+agora-rtc-react.mjs:94 17:01:09:603 Agora-SDK [INFO]: [apiInvoke-3][track-mic-9db52247][createMicrophoneAudioTrack] start [{…}]
+agora-rtc-react.mjs:94 17:01:09:604 Agora-SDK [INFO]: start create microphone audio track with config {"ANS":true,"AEC":true} trackId track-mic-9db52247
+agora-rtc-react.mjs:94 17:01:09:604 Agora-SDK [DEBUG]: [track-mic-9db52247] GetUserMedia {"audio":{"echoCancellation":true,"noiseSuppression":true,"googHighpassFilter":true}}
+agora-rtc-react.mjs:94 17:01:11:854 Agora-SDK [DEBUG]: [lock-track-mic-9db52247-16] is created.
+agora-rtc-react.mjs:94 17:01:11:855 Agora-SDK [INFO]: create audio context
+agora-rtc-react.mjs:94 17:01:11:855 Agora-SDK [DEBUG]: audio context init option: {}
+agora-rtc-react.mjs:94 17:01:12:30 Agora-SDK [INFO]: [apiInvoke-3][track-mic-9db52247][createMicrophoneAudioTrack] onSuccess 
+agora-rtc-react.mjs:94 17:01:12:30 Agora-SDK [INFO]: create microphone audio track success, trackId: track-mic-9db52247
+agora-rtc-react.mjs:94 17:01:12:30 Agora-SDK [INFO]: [apiInvoke-4][track-mic-61d9e7ac][createMicrophoneAudioTrack] start [{…}]
+agora-rtc-react.mjs:94 17:01:12:31 Agora-SDK [INFO]: start create microphone audio track with config {"ANS":true,"AEC":true} trackId track-mic-61d9e7ac
+agora-rtc-react.mjs:94 17:01:12:32 Agora-SDK [DEBUG]: [track-mic-61d9e7ac] GetUserMedia {"audio":{"echoCancellation":true,"noiseSuppression":true,"googHighpassFilter":true}}
+C:\Users\selina\OneDrive\Desktop\nene-ai\components\ConversationComponent.tsx:143 17:01:12:64 Agora-SDK [DEBUG]: [lock-track-mic-9db52247-16] is locked, current queue 1. From MicrophoneAudioTrack.setEnabled
+agora-rtc-react.mjs:94 17:01:12:66 Agora-SDK [INFO]: [apiInvoke-5][track-mic-9db52247][MicrophoneAudioTrack.setEnabled] start (3) ['track-mic-9db52247', true, undefined]
+agora-rtc-react.mjs:94 17:01:12:67 Agora-SDK [INFO]: [apiInvoke-5][track-mic-9db52247][MicrophoneAudioTrack.setEnabled] onSuccess 
+agora-rtc-react.mjs:94 17:01:12:67 Agora-SDK [DEBUG]: [lock-track-mic-9db52247-16] is unlocked, current queue 0. From MicrophoneAudioTrack.setEnabled
+agora-rtc-react.mjs:94 17:01:12:167 Agora-SDK [DEBUG]: [lock-track-mic-61d9e7ac-17] is created.
+agora-rtc-react.mjs:94 17:01:12:168 Agora-SDK [INFO]: [apiInvoke-4][track-mic-61d9e7ac][createMicrophoneAudioTrack] onSuccess 
+agora-rtc-react.mjs:94 17:01:12:168 Agora-SDK [INFO]: create microphone audio track success, trackId: track-mic-61d9e7ac
+C:\Users\selina\OneDrive\Desktop\nene-ai\components\ConversationComponent.tsx:143 17:01:12:200 Agora-SDK [DEBUG]: [lock-track-mic-61d9e7ac-17] is locked, current queue 1. From MicrophoneAudioTrack.setEnabled
+agora-rtc-react.mjs:94 17:01:12:202 Agora-SDK [INFO]: [apiInvoke-6][track-mic-61d9e7ac][MicrophoneAudioTrack.setEnabled] start (3) ['track-mic-61d9e7ac', true, undefined]
+agora-rtc-react.mjs:94 17:01:12:202 Agora-SDK [INFO]: [apiInvoke-6][track-mic-61d9e7ac][MicrophoneAudioTrack.setEnabled] onSuccess 
+agora-rtc-react.mjs:94 17:01:12:203 Agora-SDK [DEBUG]: [lock-track-mic-61d9e7ac-17] is unlocked, current queue 0. From MicrophoneAudioTrack.setEnabled
+hot-reloader-client.js:242 [Fast Refresh] rebuilding
+hot-reloader-client.js:74 [Fast Refresh] done in 2795ms
+hot-reloader-client.js:242 [Fast Refresh] rebuilding
+hot-reloader-client.js:74 [Fast Refresh] done in 1763ms
+agora-rtc-react.mjs:94 17:01:22:307 Agora-SDK [INFO]: [client-2cf74] signal connection state change: DISCONNECTED -> CONNECTING
+agora-rtc-react.mjs:94 17:01:22:308 Agora-SDK [INFO]: [client-2cf74] start join channel ai-conversation-1773651677665-py1e3r, join number: 1
+agora-rtc-react.mjs:94 17:01:22:315 Agora-SDK [INFO]: [apiInvoke-7][client-2cf74][Client.join] start
+agora-rtc-react.mjs:94 17:01:22:316 Agora-SDK [DEBUG]: [client-2cf74] new Session EE960E2CE5B99F4B372EFF1BA6C4592A
+agora-rtc-react.mjs:94 17:01:22:324 Agora-SDK [DEBUG]: disable reportProxyServerurl: undefined
+agora-rtc-react.mjs:94 17:01:22:326 Agora-SDK [DEBUG]: [client-2cf74] Connect to choose_server: https://webrtc2-ap-web-1.agora.io/api/v2/transpond/webrtc?v=2
+agora-rtc-react.mjs:94 17:01:22:330 Agora-SDK [DEBUG]: [client-2cf74] Connect to choose_server: https://webrtc2-2.ap.sd-rtn.com/api/v2/transpond/webrtc?v=2
+agora-rtc-react.mjs:94 17:01:22:516 Agora-SDK [DEBUG]: [client-2cf74] set joinGatewayStartTime at 1773651682516
+agora-rtc-react.mjs:94 17:01:22:517 Agora-SDK [DEBUG]: [client-2cf74] use websocket join uid 0
+agora-rtc-react.mjs:94 17:01:22:518 Agora-SDK [DEBUG]: [client-2cf74][lock-websocket-6] is locked, current queue 1. 
+agora-rtc-react.mjs:94 17:01:22:519 Agora-SDK [DEBUG]: [gateway-client-2cf74] start connect, url: {host: '129-227-177-115.edge.agora.io', port: '4708'}
+agora-rtc-react.mjs:94 17:01:22:520 Agora-SDK [DEBUG]: [choose-best-ws] currentDomain:  {host: '129-227-177-115.edge.agora.io', port: '4708'} , domains:  (2) ['edge.agora.io', 'edge.sd-rtn.com'] total: 3 current: 1
+agora-rtc-react.mjs:94 17:01:22:520 Agora-SDK [DEBUG]: [choose-best-ws client-2cf74 1] 0ms: createWebSocket: {host: '129-227-177-115.edge.agora.io', port: '4708'} {isTry443Port: false, hasTimeoutDetection: false}
+agora-rtc-react.mjs:94 17:01:22:522 Agora-SDK [DEBUG]: [choose-best-ws client-2cf74 1] 2ms: ws is connecting: wss://129-227-177-115.edge.agora.io:4708/
+agora-rtc-react.mjs:94 17:01:22:523 Agora-SDK [DEBUG]: [choose-best-ws client-2cf74 1] 3ms: ws is connecting: wss://129-227-177-115.edge.sd-rtn.com:4708/
+agora-rtc-react.mjs:94 17:01:22:525 Agora-SDK [DEBUG]: [client-2cf74][lock-config-distribute-7] is locked, current queue 1. 
+agora-rtc-react.mjs:94 17:01:22:651 Agora-SDK [DEBUG]: [choose-best-ws client-2cf74 1] 131ms: onopen: ws wss://129-227-177-115.edge.sd-rtn.com:4708/ open cost 131ms
+agora-rtc-react.mjs:103 WebSocket connection to 'wss://129-227-177-115.edge.agora.io:4708/' failed: WebSocket is closed before the connection is established.
+eval @ agora-rtc-react.mjs:103
+h.onopen @ agora-rtc-react.mjs:103
+agora-rtc-react.mjs:94 17:01:22:652 Agora-SDK [DEBUG]: [choose-best-ws client-2cf74 1] 132ms: close backup websocket: wss://129-227-177-115.edge.agora.io:4708/
+agora-rtc-react.mjs:94 17:01:22:653 Agora-SDK [DEBUG]: [gateway-client-2cf74] websocket opened: wss://129-227-177-115.edge.sd-rtn.com:4708/
+agora-rtc-react.mjs:94 17:01:22:654 Agora-SDK [DEBUG]: [client-2cf74] use single turn, use turn server index: 0
+agora-rtc-react.mjs:94 17:01:22:654 Agora-SDK [DEBUG]: websocket reset reconnect count, reason: opened
+agora-rtc-react.mjs:94 17:01:22:654 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 1. From P2PChannel.startP2PConnection
+agora-rtc-react.mjs:94 17:01:22:655 Agora-SDK [DEBUG]: [client-2cf74][lock-websocket-6] is unlocked, current queue 0. 
+agora-rtc-react.mjs:94 17:01:22:655 Agora-SDK [DEBUG]: [client-2cf74] [0] forceTurn: false
+agora-rtc-react.mjs:94 17:01:22:655 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is created.
+agora-rtc-react.mjs:94 17:01:22:698 Agora-SDK [DEBUG]: [config-distribute] get config distribute {}
+agora-rtc-react.mjs:94 17:01:22:699 Agora-SDK [DEBUG]: Caching global parameters {}
+agora-rtc-react.mjs:94 17:01:22:699 Agora-SDK [DEBUG]: [client-2cf74][lock-config-distribute-7] is unlocked, current queue 0. 
+agora-rtc-react.mjs:94 17:01:22:708 Agora-SDK [DEBUG]: raising H264 baseline profile priority
+agora-rtc-react.mjs:94 17:01:22:710 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 0. From P2PChannel.startP2PConnection
+agora-rtc-react.mjs:94 17:01:22:754 Agora-SDK [DEBUG]: Using remote candidate from AP 129.**:4708
+agora-rtc-react.mjs:94 17:01:22:754 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 1. From P2PChannel.connect
+agora-rtc-react.mjs:94 17:01:22:755 Agora-SDK [INFO]: [client-2cf74] signal connection state change: CONNECTING -> CONNECTED
+agora-rtc-react.mjs:94 17:01:22:758 Agora-SDK [DEBUG]: [client-2cf74] websocket join uid 139781 cost 242
+agora-rtc-react.mjs:94 17:01:22:759 Agora-SDK [DEBUG]: [client-2cf74] Connected to gateway server
+agora-rtc-react.mjs:94 17:01:22:760 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is locked, current queue 1. From P2PConnection.connect
+agora-rtc-react.mjs:94 17:01:22:760 Agora-SDK [INFO]: [apiInvoke-7][client-2cf74][Client.join] onSuccess
+agora-rtc-react.mjs:94 17:01:22:760 Agora-SDK [INFO]: [client-2cf74] Joining channel success: channel: ai-conversation-1773651677665-py1e3r,uid: 139781
+agora-rtc-react.mjs:94 17:01:22:783 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 2. From P2PChannel.updateRemoteRTPCapabilities
+agora-rtc-react.mjs:94 17:01:22:800 Agora-SDK [INFO]: [apiInvoke-8][client-2cf74][Client.unpublish] start []
+agora-rtc-react.mjs:94 17:01:22:800 Agora-SDK [INFO]: [client-2cf74] Unpublish tracks, tracks  
+agora-rtc-react.mjs:94 17:01:22:800 Agora-SDK [DEBUG]: [client-2cf74][lock-client-publish-3] is locked, current queue 1. 
+agora-rtc-react.mjs:94 17:01:22:801 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 3. From P2PChannel.unpublish
+agora-rtc-react.mjs:94 17:01:22:801 Agora-SDK [DEBUG]: [client-2cf74] [pc-1] RTCPeerConnection.onicegatheringstatechange(gathering)
+agora-rtc-react.mjs:94 17:01:22:804 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is unlocked, current queue 0. From P2PConnection.connect
+agora-rtc-react.mjs:94 17:01:22:805 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 2. From P2PChannel.connect
+agora-rtc-react.mjs:94 17:01:22:810 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is locked, current queue 1. From P2PConnection.updateRemoteRTPCapabilities
+agora-rtc-react.mjs:94 17:01:22:812 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 1. From P2PChannel.updateRemoteRTPCapabilities
+agora-rtc-react.mjs:94 17:01:22:813 Agora-SDK [DEBUG]: codecs has not changed, no need to updateRemoteCodec, codecs: vp9,av1,h265,vp8,h264
+agora-rtc-react.mjs:94 17:01:22:814 Agora-SDK [DEBUG]: [P2PConnection] updateRemoteRTPCapabilities no need to exchange SDP.
+agora-rtc-react.mjs:94 17:01:22:814 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is unlocked, current queue 0. From P2PConnection.updateRemoteRTPCapabilities
+agora-rtc-react.mjs:94 17:01:22:814 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 0. From P2PChannel.unpublish
+agora-rtc-react.mjs:94 17:01:22:815 Agora-SDK [INFO]: [client-2cf74] Unpublish success,tracks 
+agora-rtc-react.mjs:94 17:01:22:815 Agora-SDK [DEBUG]: [client-2cf74][lock-client-publish-3] is unlocked, current queue 0. 
+agora-rtc-react.mjs:94 17:01:22:815 Agora-SDK [INFO]: [apiInvoke-8][client-2cf74][Client.unpublish] onSuccess 
+agora-rtc-react.mjs:94 17:01:22:815 Agora-SDK [INFO]: [apiInvoke-9][client-2cf74][Client.publish] start ['track-mic-61d9e7ac']
+agora-rtc-react.mjs:94 17:01:22:816 Agora-SDK [INFO]: [client-2cf74] Publishing tracks, id track-mic-61d9e7ac 
+agora-rtc-react.mjs:94 17:01:22:816 Agora-SDK [DEBUG]: [client-2cf74][lock-client-publish-3] is locked, current queue 1. 
+agora-rtc-react.mjs:94 17:01:22:816 Agora-SDK [DEBUG]: [client-2cf74] publish high stream
+agora-rtc-react.mjs:94 17:01:22:817 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 1. From P2PChannel.publish
+agora-rtc-react.mjs:94 17:01:22:818 Agora-SDK [DEBUG]: [client-2cf74] [p2pId: 1]: P2PConnection will send audioTrack [track-mic-61d9e7ac]
+agora-rtc-react.mjs:94 17:01:22:819 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is locked, current queue 1. From P2PConnection.send
+agora-rtc-react.mjs:94 17:01:22:833 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onICEConnectionStateChange(checking)
+agora-rtc-react.mjs:94 17:01:22:833 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onICETransportStateChange(checking)
+agora-rtc-react.mjs:94 17:01:22:835 Agora-SDK [INFO]: [client-2cf74] [pc-1] selectedcandidatepairchange: local "58.**:62375", remote "129.**:4708"
+agora-rtc-react.mjs:94 17:01:22:836 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onDTLSTransportStateChange(connecting)
+agora-rtc-react.mjs:94 17:01:22:836 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onICEConnectionStateChange(connected)
+agora-rtc-react.mjs:94 17:01:22:836 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onICETransportStateChange(connected)
+agora-rtc-react.mjs:94 17:01:22:854 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onConnectionStateChange(connecting)
+agora-rtc-react.mjs:94 17:01:22:854 Agora-SDK [DEBUG]: [client-2cf74] [pc-1] RTCPeerConnection.onicegatheringstatechange(complete)
+agora-rtc-react.mjs:94 17:01:22:855 Agora-SDK [DEBUG]: [client-2cf74] [pc-1] local candidate count 3
+agora-rtc-react.mjs:94 17:01:22:855 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onDTLSTransportStateChange(connected)
+agora-rtc-react.mjs:94 17:01:22:862 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.onConnectionStateChange(connected)
+agora-rtc-react.mjs:94 17:01:22:893 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PConnection-mutex-18] is unlocked, current queue 0. From P2PConnection.send
+agora-rtc-react.mjs:94 17:01:22:895 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 0. From P2PChannel.publish
+agora-rtc-react.mjs:94 17:01:22:897 Agora-SDK [INFO]: [client-2cf74] Publish success, id track-mic-61d9e7ac 
+agora-rtc-react.mjs:94 17:01:22:898 Agora-SDK [DEBUG]: [client-2cf74][lock-client-publish-3] is unlocked, current queue 0. 
+agora-rtc-react.mjs:94 17:01:22:898 Agora-SDK [INFO]: [apiInvoke-9][client-2cf74][Client.publish] onSuccess 
+agora-rtc-react.mjs:94 17:01:22:914 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.SelectedLocalCandidateChanged({"candidateType":"unknown","protocol":"unknown","address":"unknown","port":0} -> {"candidateType":"prflx","protocol":"udp"})
+agora-rtc-react.mjs:94 17:01:22:914 Agora-SDK [INFO]: [client-2cf74] [p2pId: 1]: P2PConnection.SelectedRemoteCandidateChanged({"candidateType":"unknown","protocol":"unknown","address":"unknown","port":0} -> {"candidateType":"host","protocol":"udp","address":"129.*.*.115","port":4708})
+agora-rtc-react.mjs:94 17:01:22:966 Agora-SDK [DEBUG]: [client-2cf74] user online 333
+agora-rtc-react.mjs:94 17:01:22:976 Agora-SDK [DEBUG]: [client-2cf74] receive mute message 333 audio true
+agora-rtc-react.mjs:94 17:01:22:976 Agora-SDK [DEBUG]: [client-2cf74] user-info-update, uid: 333, msg: mute-audio
+agora-rtc-react.mjs:94 17:01:22:977 Agora-SDK [DEBUG]: [client-2cf74] receive mute message 333 video true
+agora-rtc-react.mjs:94 17:01:22:977 Agora-SDK [DEBUG]: [client-2cf74] user-info-update, uid: 333, msg: mute-video
+agora-rtc-react.mjs:94 17:01:22:977 Agora-SDK [DEBUG]: [client-2cf74] local video disabled with uid 333
+agora-rtc-react.mjs:94 17:01:22:977 Agora-SDK [DEBUG]: [client-2cf74] user-info-update, uid: 333, msg: disable-local-video
+agora-rtc-react.mjs:94 17:01:23:758 Agora-SDK [DEBUG]: [client-2cf74] auto dispatch stream remove 333
+agora-rtc-react.mjs:94 17:01:23:758 Agora-SDK [DEBUG]: [client-2cf74] stream removed with uid 333
+agora-rtc-react.mjs:94 17:01:23:759 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 1. From P2PChannel.unsubscribe
+agora-rtc-react.mjs:94 17:01:23:762 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 0. From P2PChannel.unsubscribe
+agora-rtc-react.mjs:94 17:01:26:684 Agora-SDK [DEBUG]: [client-2cf74] stream removed with uid 333
+agora-rtc-react.mjs:94 17:01:26:684 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is locked, current queue 1. From P2PChannel.unsubscribe
+agora-rtc-react.mjs:94 17:01:26:686 Agora-SDK [DEBUG]: [client-2cf74] user offline 333 reason: Quit
+agora-rtc-react.mjs:94 17:01:26:686 Agora-SDK [DEBUG]: [client-2cf74][lock-P2PChannel-mutex-8] is unlocked, current queue 0. From P2PChannel.unsubscribe
